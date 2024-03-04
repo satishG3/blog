@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+    <title>My Resume Blog</title>
+</head>
+<style>
+body, h1, h2, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color:gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<body>
+    <header>
+          <h1>Savarapu Sri Sai Srinivasa Satish</h1>
+          
+    </header>
+
+    <main>
+        <article>
+            <h2>About Me :</h2>
+              <br> 
+         <br>
+        <img align="left" src="C:\Users\satis\OneDrive\Desktop\ME2.jpg">
+       <br>
+      <p>
+               Welcome to my blog! My name is satish I am a student in Malla Reddy college of Engineering and Technology I am currently pursuing my bachelor's degree in the same college.I'am a passionate in Software Engineer and expert in web Development(Front end). </p>
+<br>
+          <p id="demo" onclick="myFunction()"><a href="#">read more.</a></p>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = " My Name is S.Satish I'am studying B.Tech 3rd year 2nd sem in MRCET college.<br>I'am for East Godavari Andhar Pradesh I have completed my education upto intermediate in East Godavari itself <br> and My strengths are I'am good at Python and HTML.And my short term goal is to get placement in my B.Tech itself in a product based company.<br>My long term goal is to build my own house and I want start a my own company after 10-15 years. ";
+}
+</script>
+        </article>
+          <br>
+            <br>
+              
+        <article>
+            <h2>Contact Information :</h2>
+          <p><ul class="contact-info">
+            <li>
+                <i class="fas fa-envelope icon"></i>
+                Email :  <a href="mailtosatishsavarapu1979@gmail.com">satishsavarapu1979@gmail.com</a>
+            </li>
+            <li>
+                <i class="fas fa-phone-alt icon"></i>
+                Phone : 9666781933
+            </li>
+
+        </ul>
+        </p><br>
+             <p id="contact" onclick="mycontact()"><a href="#">Read more</a>
+<script>
+function mycontact() {
+  document.getElementById("contact").innerHTML = "Address : East Godavari Andhra Pradesh,kothapeta shivalayam veedhi Avidi <br> D-No : 9-2A-11";
+}
+</script>
+        </article>
+
+        <article>
+            <h2>Education :</h2>
+            <p><strong>Schooling(10th) :</strong><br>
+            Bhashyam High School, Andhra Pradesh, India with GPA : 9.5</p>
+        <p><strong>Intermediate :</strong><br>
+            Sahasara Junior College, Andhra Pradesh, India with 71%</p>
+        <p><strong>Bachelor's degree in CSE(AIML) : </strong><br>
+            Malla Reddy College Of Engineering and Technology, Telangana, India with CGPA : 7.46<br>
+        </p>
+<br>
+            <p id="education" onclick="myeducation()"><a href="#">Read more</a>
+<script>
+function myeducation() {
+  document.getElementById("education").innerHTML = "Currently I'am doing B.Tech 3rd year 2nd sem with CGPA:7.46 upto 2nd year 2nd sem,we are legally waiting to see over 3rd year 1st sem results.";
+} 
+</script>
+        </article>
+
+        <article>
+            <h2>Projects :</h2>
+            <p>
+               I have done a project in AD-1(Application development-1)
+          it's name is Flora Wed.
+          <img align="center" src="C:\Users\satis\OneDrive\Desktop\flora web.jpg">
+            </p>
+         <p id="projects" onclick="myproject()"><a href="#">Read more</a>
+         <script>
+          function myproject()
+         {
+            document.getElementById("projects").innerHTML = "Flora web is an innovative website project serrving as a com prehensive online repository for technical plant care information,gudiance and community engagement.<br> It's mission is to empower individuals from novice gardeners to seasoned horticulturists,to effectively care for their plants through a robust database of detailed species profiles.<br> Users can access essential growth and care information,fostering knowledge-sharing and support within a plant care community.<br> Beyond plant care,the platform promates environmental awareness,educating users on sustainable horticultural practices.<br>Flora Web combines tecnical expertise with a vision for a greener future,creating a digital sanctuary for plant enthusiasts and eco-conscious individuals alike.";}
+</script>
+           
+        </article>
+          <article>
+            <h2>Hobbies</h2>
+            <p>
+              Playing Volleyball.<br>Cricket.<br>watching movies.<br>Scorlling instagram. <br> Drawing.
+            </p>
+<br>
+             <p id="hobbie" onclick="myhobbies()"><a href="#">Read more</a>
+<script>
+function myhobbies() {
+  document.getElementById("hobbie").innerHTML = "My hobbies are I like to play outdoor games like volleyball,cricket,etc..,and some time's I like to watch movies (Historical movies) and I scroll instagram some time's and mostly in my free time I like to draw some arts(pictures) these are My hobbies.";
+} 
+</script>
+        </article>
+    </main>
+<br>
+<br>
+    <footer>
+        <p>&copy; 2024 Savarapu Sri Sai Srinivasa Satish - Blog</p>
+    </footer>
+</body>
+</html>
